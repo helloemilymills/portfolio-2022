@@ -1,0 +1,19 @@
+#ig-brand-container {
+    display: flex;
+    padding: 5vw;
+    justify-content: space-between;
+    
+
+}
+
+.instagram-media {
+    flex: 1;
+    width: 20vw;
+}
+
+@media (max-width: 400px) {
+    #ig-brand-container {
+      display: block;
+    }
+  }
+

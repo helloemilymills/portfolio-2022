@@ -6,9 +6,13 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2 {
+h2 {
   margin-left: 5vw;
   margin-bottom: 5px;
+}
+
+#intro {
+  margin-left: 5vw;
 }
 
 .title-underline {

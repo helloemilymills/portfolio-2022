@@ -3,9 +3,9 @@
 const ajureButton = document.getElementById("ajure-button");
 const ajureExpanded = document.getElementById("ajure-brand");
 const socialSleeveButton = document.getElementById("social-sleeve-button");
-const socialSleeveExpanded = document.getElementById("social-sleeve-expanded");
+const socialSleeveExpanded = document.getElementById("social-sleeve-brand");
 const playFairButton = document.getElementById("play-fair-button");
-const playFairExpanded = document.getElementById("play-fair-expanded");
+const playFairExpanded = document.getElementById("play-fair-brand");
 
 //webpage section
 const careersButton = document.getElementById("careers-button");

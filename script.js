@@ -4,7 +4,7 @@ const partnershipsButton = document.getElementById("partnerships-button");
 const partnershipsPage = document.getElementById("partnerships-page");
 
 function toggleCareersSection() {
-    if (careersPage.style.display == "none") {
+    if (careersPage.style.display == "none" || careersPage.style.display == "") {
         careersPage.style.display = "flex";
         partnershipsPage.style.display = "none";
     }
@@ -15,7 +15,7 @@ function toggleCareersSection() {
 }
 
 function togglePartnershipsSection() {
-    if (partnershipsPage.style.display == "none") {
+    if (partnershipsPage.style.display == "none" ||partnershipsPage.style.display == "") {
         partnershipsPage.style.display = "flex";
         careersPage.style.display = "none";
     }

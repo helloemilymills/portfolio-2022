@@ -33,6 +33,11 @@ h1, h2 {
   border-radius: 4px;
 }
 
+.brand-preview-images:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
 .brand-images-container {
   display: flex;
   flex-direction: column;
@@ -45,6 +50,18 @@ h1, h2 {
   display:flex;
   width: 90vw;
   justify-content: space-between;
+}
+
+#ajure-brand {
+  display: none;
+}
+
+#social-sleeve-brand {
+  display: none;
+}
+
+#play-fair-brand {
+  display: none;
 }
 
 #webpage-preview-container {

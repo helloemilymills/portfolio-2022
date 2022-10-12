@@ -43,6 +43,28 @@ h1, h2 {
   cursor: pointer;
 }
 
+.coming-soon:hover {
+  cursor: default;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+}
+
+#careers-page {
+  display: none;
+}
+
+#partnerships-page {
+  display: none;
+}
+
+.webpage-images {
+  width: 80vw;
+}
+
 .sewing-underline {
   background: white;
   margin: 0;

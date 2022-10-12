@@ -1,9 +1,10 @@
+/* if you change the font-family, change it 
+in the input & textarea placeholders too */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
-/* if you change the font-family, change it 
-in the input & textarea placeholders too */
 
 h1, h2, h3, h4, h5, h6 {
   margin-left: 5vw;
@@ -18,13 +19,62 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
 }
 
+.sewing-underline {
+  background: white;
+  margin: 0;
+
+}
+
+#sewing-panel {
+  height: auto;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 5vw;
+  display: flex;
+  gap: 2vw;
+}
+
+#sewing-panel h2 {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.sewing-images {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center -60px;
+}
+
+.sewing-text {
+  width: 26vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sewing-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.sewing-text a:visited {
+  color: white;
+}
+
+#sewing-ig-handle {
+  display: flex;
+  gap: 10px;
+}
+
 form {
- display: flex;
- gap: 20px;
- flex-direction: column;
- width: 300px;
- margin-left: 5vw;
- margin-right: 5vw;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 input {
@@ -50,7 +100,6 @@ textarea::placeholder {
 
 #submit {
   height: 30px;
-  width: auto;
   background-color: black;
   color: white;
   display: flex;

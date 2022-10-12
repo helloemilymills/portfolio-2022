@@ -19,6 +19,20 @@ h1, h2 {
   margin-bottom: 30px;
 }
 
+#brand-preview-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5vw;
+  justify-content: space-between;
+}
+
+.brand-preview-images {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 #webpage-preview-container {
   display: flex;
   flex-direction: row;

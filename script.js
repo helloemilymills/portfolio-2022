@@ -13,6 +13,10 @@ const careersPage = document.getElementById("careers-page");
 const partnershipsButton = document.getElementById("partnerships-button");
 const partnershipsPage = document.getElementById("partnerships-page");
 
+//contact form
+const contactForm = document.getElementById("contact-form");
+
+
 //brand section
 function toggleAjureSection() {
     if (ajureExpanded.style.display == "none" || ajureExpanded.style.display == "") {
@@ -74,4 +78,11 @@ function togglePartnershipsSection() {
 
 careersButton.addEventListener('click', toggleCareersSection);
 partnershipsButton.addEventListener('click', togglePartnershipsSection);
+
+//contact form
+function clearForm() {
+    contactForm.reset();
+}
+
+contactForm.addEventListener('submit', clearForm());
   

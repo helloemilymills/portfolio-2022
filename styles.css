@@ -68,9 +68,51 @@ h2 {
   display: none;
 }
 
-.animation-containers {
+#animation-buttons-container {
   display: flex;
-  gap: 5vw;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.animation-button {
+  background-color: #F8FAFC;
+  height: 120px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.animation-button p {
+  margin: 0;
+}
+
+.animation-button:hover {
+  background-color: white;
+  color: #3947D6;
+}
+
+#prodSchedBtn {
+  border-radius: 4px 0 0 4px;
+}
+
+#knowlManBtn {
+  border-radius: 0 4px 4px 0;
+}
+
+.lottie-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+#prodSchedContainer {
+  display: block;
 }
 
 #webpage-preview-container {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,24 @@
     <title>Portfolio of Emily Mills</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="intro">
         <p>NOTE: This site is under construction, so don't judge it just yet :P</p>
         <h1>I'm Emily Mills, a creator.</h1>
         <p>Here's a selection of things that I've made.</p>
     </div>
-    
+
     <div id="brand-section">
         <h2>My Brands</h2>
         <div class="title-underline"></div>
         <div id="brand-preview-container">
-            <img class="brand-preview-images" id="ajure-button" src="images/Ajure/Hero.png" alt="Brand logo, white text on a soft orange background.">
-            <img class="brand-preview-images" id="play-fair-button" src="images/Play Fair/Hero.jpg" alt="White brand logo atop an image of diverse, happy women.">
-            <img class="brand-preview-images" id="social-sleeve-button" src="images/Social Sleeve/Hero.jpg" alt="Brand logo, white text on charcoal backgrouund. The tagline is coloured by a dark rainbow gradient.">
+            <img class="brand-preview-images" id="ajure-button" src="images/Ajure/Hero.png"
+                alt="Brand logo, white text on a soft orange background.">
+            <img class="brand-preview-images" id="play-fair-button" src="images/Play Fair/Hero.jpg"
+                alt="White brand logo atop an image of diverse, happy women.">
+            <img class="brand-preview-images" id="social-sleeve-button" src="images/Social Sleeve/Hero.jpg"
+                alt="Brand logo, white text on charcoal backgrouund. The tagline is coloured by a dark rainbow gradient.">
         </div>
         <div id="ajure-brand" class="brand-images-container">
             <p>Ajure is a fine jewellery brand.</p>
@@ -41,7 +46,9 @@
             </div>
         </div>
         <div id="play-fair-brand" class="brand-images-container">
-            <p>Play Fair is a body positive athleisure brand. I designed the logo to emphasise the brand's love for diverse bodies by having differently shaped letters fit perfectly together. Similarly, the brand pattern reflects the beauty of different shapes and sizes.</p>
+            <p>Play Fair is a body positive athleisure brand. I designed the logo to emphasise the brand's love for
+                diverse bodies by having differently shaped letters fit perfectly together. Similarly, the brand pattern
+                reflects the beauty of different shapes and sizes.</p>
             <div>
                 <img class="brand-images" src="images/Play Fair/Primary.png" alt="">
                 <img class="brand-images" src="images/Play Fair/Colour Palette.png" alt="">
@@ -50,7 +57,7 @@
             <div>
                 <img class="brand-images" src="images/Play Fair/Mailer.jpg" alt="">
                 <img class="brand-images" src="images/Play Fair/Swing Tags.jpg" alt="">
-                <img class="brand-images" src="images/Play Fair/Secondary.jpg" alt="">   
+                <img class="brand-images" src="images/Play Fair/Secondary.jpg" alt="">
             </div>
         </div>
         <div id="social-sleeve-brand" class="brand-images-container">
@@ -72,17 +79,62 @@
     <div id="animation-section">
         <h2>My Animations</h2>
         <div class="title-underline"></div>
-        <p>The following animation series was made for a SaaS company who wanted to explain complex features in simple ways to potential customers.</p>
-        <p>Click to play!</p>
-        <div>
-            <div class="animation-containers">
-                <lottie-player src="lottie/OEE Downtime Recording.json" background="transparent"  speed="1" loop controls></lottie-player>
-                <lottie-player src="lottie/Production Scheduling.json" background="transparent"  speed="1" loop controls></lottie-player>
+        <p>The following animation series was made for a SaaS company who wanted to explain complex features in simple
+            ways to potential customers.</p>
+        <div id="animation-buttons-container">
+            <div id="prodSchedBtn" class="animation-button">
+                <svg class="btn-svg" fill="currentColor" width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.7351 13.9395H14.6159C13.6567 13.9395 12.8792 14.717 12.8792 15.6762V15.7611C12.8792 16.7203 13.6567 17.4978 14.6159 17.4978H20.7351C21.6943 17.4978 22.4719 16.7203 22.4719 15.7611V15.6762C22.4719 14.717 21.6943 13.9395 20.7351 13.9395Z" fill="currentColor"></path>
+                    <path d="M25.4243 20.3115H16.7632C16.0483 20.3115 15.4688 21.089 15.4688 22.048V22.1328C15.4688 23.0919 16.0483 23.8693 16.7632 23.8693H25.4243C26.1392 23.8693 26.7187 23.0919 26.7187 22.1328V22.048C26.7187 21.089 26.1392 20.3115 25.4243 20.3115Z" fill="currentColor"></path>
+                    <path d="M31.6594 26.6807H20.8331C19.9394 26.6807 19.215 27.4582 19.215 28.4174V28.5023C19.215 29.4615 19.9394 30.2391 20.8331 30.2391H31.6594C32.553 30.2391 33.2775 29.4615 33.2775 28.5023V28.4174C33.2775 27.4582 32.553 26.6807 31.6594 26.6807Z" fill="currentColor"></path>
+                    <path d="M36.5516 34.1116H10.457V9.44726C10.457 9.17945 10.3507 8.92262 10.1613 8.73325C9.97193 8.54389 9.71509 8.4375 9.44729 8.4375C9.17948 8.4375 8.92265 8.54389 8.73328 8.73325C8.54392 8.92262 8.43753 9.17945 8.43753 9.44726V35.1213C8.43753 35.3891 8.54392 35.646 8.73328 35.8353C8.92265 36.0247 9.17948 36.1311 9.44729 36.1311H36.5516C36.8194 36.1311 37.0763 36.0247 37.2657 35.8353C37.455 35.646 37.5614 35.3891 37.5614 35.1213C37.5614 34.8535 37.455 34.5967 37.2657 34.4073C37.0763 34.218 36.8194 34.1116 36.5516 34.1116Z" fill="currentColor"></path>
+                    </svg>
+                <p>Production</p>
+                <p>Scheduling</p>
             </div>
-            <div class="animation-containers">
-                <lottie-player src="lottie/SOP Knowledge Management.json" background="transparent"  speed="1" loop controls></lottie-player>
-                <lottie-player src="lottie/Hiring.json" background="transparent"  speed="1" loop controls></lottie-player>
+            <div id="digWorkOrdBtn" class="animation-button">
+                <svg class="btn-svg" fill="currentColor" width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.2267 9.84375H11.9743C10.4158 9.84375 9.14062 11.1189 9.14062 12.6774V16.9279H36.0603V12.6774C36.0603 11.1189 34.7852 9.84375 33.2267 9.84375ZM33.2267 35.3466H28.9762V19.7615H36.0603V32.513C36.0603 34.0715 34.7852 35.3466 33.2267 35.3466ZM26.1425 19.7899H19.0584V35.3466H26.1425V19.7899ZM11.9743 35.3466C10.4158 35.3466 9.14062 34.0715 9.14062 32.513V19.7615H16.2248V35.3466H11.9743Z" fill="currentColor"></path>
+                    </svg>
+                <p>Digital</p>
+                <p>Work Order</p>
             </div>
+            <div id="oeeMetBtn" class="animation-button">
+                <svg class="btn-svg" fill="currentColor" width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36.5388 14.7819L36.4486 14.6917C35.8622 14.1053 34.9 14.1354 34.3587 14.7519L31.081 18.4355C27.9988 14.9624 23.7137 12.8574 18.8724 12.8574C15.1136 12.8574 11.6104 14.1655 8.72358 16.3155C8.01693 16.8418 7.94175 17.8792 8.5582 18.4956L8.64841 18.5859C9.14457 19.082 9.94144 19.1722 10.4977 18.7512C12.8884 16.947 15.7601 15.8645 18.8724 15.8645C22.9921 15.8645 26.5253 17.7589 29.0513 20.7359L24.7211 25.6073L19.7745 20.6607C19.4936 20.3792 19.1122 20.221 18.7145 20.221C18.3168 20.221 17.9354 20.3792 17.6545 20.6607L8.45295 29.8773C7.89664 30.4336 7.89664 31.3508 8.45295 31.9071L8.67848 32.1326C9.23478 32.6889 10.1519 32.6889 10.7082 32.1326L18.707 24.1188L23.5935 29.0053C24.2099 29.6217 25.2022 29.5917 25.7736 28.9451L30.8104 23.2919C31.7426 24.9758 32.4342 26.8853 32.795 28.9C32.9153 29.6067 33.5017 30.1329 34.2234 30.1329H34.3587C35.2608 30.1329 35.9374 29.306 35.772 28.4189C35.2909 25.6374 34.2986 23.0964 32.9304 20.9013L36.599 16.7666C37.1102 16.1952 37.0801 15.3232 36.5388 14.7819Z" fill="currentColor"></path>
+                    </svg>
+                <p>OEE</p>
+                <p>Metrics</p>
+            </div>
+            <div id="papQualBtn" class="animation-button">
+                <svg class="btn-svg" fill="currentColor" width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.58371 11.6016H23.6551C24.5391 11.6016 25.2623 12.3248 25.2623 13.2087C25.2623 14.0926 24.5391 14.8158 23.6551 14.8158H7.58371C6.69978 14.8158 5.97656 14.0926 5.97656 13.2087C5.97656 12.3248 6.69978 11.6016 7.58371 11.6016ZM7.58371 18.0301H23.6551C24.5391 18.0301 25.2623 18.7533 25.2623 19.6373C25.2623 20.5212 24.5391 21.2444 23.6551 21.2444H7.58371C6.69978 21.2444 5.97656 20.5212 5.97656 19.6373C5.97656 18.7533 6.69978 18.0301 7.58371 18.0301ZM7.58371 27.673H17.2266C18.1105 27.673 18.8337 26.9498 18.8337 26.0658C18.8337 25.1819 18.1105 24.4587 17.2266 24.4587H7.58371C6.69978 24.4587 5.97656 25.1819 5.97656 26.0658C5.97656 26.9498 6.69978 27.673 7.58371 27.673ZM38.6016 21.7266L38.457 21.5819C37.8302 20.9551 36.8016 20.9551 36.1909 21.598L28.5088 29.2962L24.8123 25.5998C24.1855 24.973 23.173 24.973 22.5463 25.5998L22.4016 25.7444C22.1007 26.0447 21.9315 26.4523 21.9315 26.8775C21.9315 27.3026 22.1007 27.7102 22.4016 28.0105L27.3677 32.9766C27.9945 33.6034 29.007 33.6034 29.6338 32.9766L38.6016 23.9926C39.2284 23.3659 39.2284 22.3534 38.6016 21.7266Z" fill="currentColor"></path>
+                    </svg>
+                <p>Paperless</p>
+                <p>Quality</p>
+            </div>
+            <div id="knowlManBtn" class="animation-button">
+                <svg class="btn-svg" width="45" height="45" viewBox="0 0 45 45" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65892 9.643C9.65892 7.87514 11.0893 6.42871 12.8571 6.42871H24.3804C25.2321 6.42871 26.0518 6.76621 26.6464 7.37693L34.4089 15.1394C35.0196 15.7341 35.3571 16.5537 35.3571 17.4055V35.3573C35.3571 37.1251 33.9107 38.5716 32.1429 38.5716H12.8411C11.0732 38.5716 9.64285 37.1251 9.64285 35.3573L9.65892 9.643ZM24.1071 8.83943V16.0716C24.1071 16.9555 24.8304 17.6787 25.7143 17.6787H32.9464L24.1071 8.83943Z" fill="currentColor"></path>
+                    </svg>
+                <p>Knowledge</p>
+                <p>Management</p>
+            </div>
+        </div>
+        <div id="prodSchedContainer" class="lottie-container">
+            <lottie-player src="lottie/Production Scheduling.json" style="width: 100%;" background="transparent" speed="1" loop controls></lottie-player>
+        </div>
+        <div id="digWorkOrdContainer" class="lottie-container">
+            <lottie-player src="lottie/Digital Work Order.json" background="transparent" speed="1" loop controls></lottie-player>
+        </div>
+        <div id="oeeMetContainer" class="lottie-container">
+            <lottie-player src="lottie/OEE Downtime Recording.json" background="transparent" speed="1" loop controls></lottie-player>
+        </div>
+        <div id="papQualContainer" class="lottie-container">
+            <lottie-player src="lottie/Paperless Quality.json" background="transparent" speed="1" loop controls></lottie-player>
+        </div>
+        <div id="knowlManContainer" class="lottie-container">
+            <lottie-player src="lottie/SOP Knowledge Management.json" background="transparent" speed="1" loop controls></lottie-player>
         </div>
     </div>
 
@@ -90,15 +142,24 @@
         <h2>My Webpages</h2>
         <div class="title-underline"></div>
         <div id="webpage-preview-container">
-            <div class="webpage-preview-images" id="careers-button"><h4>Careers Page</h4></div>
-            <div class="webpage-preview-images" id="partnerships-button"><h4>Partnerships Page</h4></div>
-            <div class="webpage-preview-images coming-soon"><h4>Home Page</h4><p>(Coming soon)</p></div>
+            <div class="webpage-preview-images" id="careers-button">
+                <h4>Careers Page</h4>
+            </div>
+            <div class="webpage-preview-images" id="partnerships-button">
+                <h4>Partnerships Page</h4>
+            </div>
+            <div class="webpage-preview-images coming-soon">
+                <h4>Home Page</h4>
+                <p>(Coming soon)</p>
+            </div>
         </div>
         <div id="careers-page" class="page-container">
-            <img class="webpage-images" src="images/Careers webpage.png" alt="the design of a careers page for a company website">
+            <img class="webpage-images" src="images/Careers webpage.png"
+                alt="the design of a careers page for a company website">
         </div>
         <div id="partnerships-page" class="page-container">
-            <img class="webpage-images" src="images/Partnerships webpage.png" alt="the design of a partnerships page for a company website">
+            <img class="webpage-images" src="images/Partnerships webpage.png"
+                alt="the design of a partnerships page for a company website">
         </div>
     </div>
 
@@ -106,7 +167,8 @@
         <div class="sewing-text">
             <h2>My Sewing</h2>
             <div class="title-underline sewing-underline"></div>
-            <p>Beyond the digital world, I enjoy hands-on hobbies like sewing, knitting, and embroidery. I share these makes on Instagram.</p>
+            <p>Beyond the digital world, I enjoy hands-on hobbies like sewing, knitting, and embroidery. I share these
+                makes on Instagram.</p>
             <a href="https://www.instagram.com/helloemilymills/" target="_blank">
                 <div id="sewing-ig-handle">
                     <img src="images/instagram.svg" alt="instagram logo">
@@ -115,8 +177,12 @@
             </a>
         </div>
         <div id="sewing-images-container">
-            <a href="https://www.instagram.com/reel/CgqOMn0DZ4o/?utm_source=ig_web_copy_link" target="_blank"><img class="sewing-images" src="images/DIY Sherbet Dress.jpg" alt="handmade two-tone dress (pastel pink & orange) with gathered empire waist"></a>
-            <a href="https://www.instagram.com/reel/CcgchBYhtXL/?utm_source=ig_web_copy_link" target="_blank"><img class="sewing-images" src="images/DIY Floral Dress.jpg" alt="handmade dress with big floral shapes and a wrap-tie waist"></a>
+            <a href="https://www.instagram.com/reel/CgqOMn0DZ4o/?utm_source=ig_web_copy_link" target="_blank"><img
+                    class="sewing-images" src="images/DIY Sherbet Dress.jpg"
+                    alt="handmade two-tone dress (pastel pink & orange) with gathered empire waist"></a>
+            <a href="https://www.instagram.com/reel/CcgchBYhtXL/?utm_source=ig_web_copy_link" target="_blank"><img
+                    class="sewing-images" src="images/DIY Floral Dress.jpg"
+                    alt="handmade dress with big floral shapes and a wrap-tie waist"></a>
         </div>
     </div>
 
@@ -127,7 +193,8 @@
             <p>First, let's have some fun.</p>
             <label>
                 What's the best drink of all time, and why?
-                <textarea name="best-drink" placeholder="If you don't say boba tea, you must be talking about second-best."></textarea>
+                <textarea name="best-drink"
+                    placeholder="If you don't say boba tea, you must be talking about second-best."></textarea>
             </label>
             <p>Okay, now you can be serious (but not too serious).</p>
             <label>
@@ -149,19 +216,25 @@
     <footer>
         <div>
             <p>Copyright © Emily Mills, 2022</p>
-            <p>Psst, I built this website! You can check out the repo on 
-            <a href="https://github.com/helloemilymills/portfolio-website" target="_blank">Github</a></p>
+            <p>Psst, I built this website! You can check out the repo on
+                <a href="https://github.com/helloemilymills/portfolio-website" target="_blank">Github</a>
+            </p>
         </div>
         <div>
-            <a href="https://www.linkedin.com/in/helloemilymills" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"></a>
-            <a href="https://www.instagram.com/14fortythree/" target="_blank"><img src="images/instagram.svg" alt="instagram logo"></a>
-            <a href="https://www.behance.net/helloemilymills" target="_blank"><img src="images/behance.svg" alt="behance logo"></a>
-            <a href="https://github.com/helloemilymills" target="_blank"><img src="images/github.svg" alt="github logo"></a>
+            <a href="https://www.linkedin.com/in/helloemilymills" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin logo"></a>
+            <a href="https://www.instagram.com/14fortythree/" target="_blank"><img src="images/instagram.svg"
+                    alt="instagram logo"></a>
+            <a href="https://www.behance.net/helloemilymills" target="_blank"><img src="images/behance.svg"
+                    alt="behance logo"></a>
+            <a href="https://github.com/helloemilymills" target="_blank"><img src="images/github.svg"
+                    alt="github logo"></a>
         </div>
     </footer>
 
-    <script src="script.js"></script> 
+    <script src="script.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </body>
+
 </html>

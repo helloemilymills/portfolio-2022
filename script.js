@@ -7,6 +7,20 @@ const socialSleeveExpanded = document.getElementById("social-sleeve-brand");
 const playFairButton = document.getElementById("play-fair-button");
 const playFairExpanded = document.getElementById("play-fair-brand");
 
+//animation section
+//buttons
+const prodSchedBtn = document.getElementById("prodSchedBtn")
+const digWorkOrdBtn = document.getElementById("digWorkOrdBtn")
+const oeeMetBtn = document.getElementById("oeeMetBtn")
+const papQualBtn = document.getElementById("papQualBtn")
+const knowlManBtn = document.getElementById("knowlManBtn")
+//containers
+const prodSchedContainer = document.getElementById("prodSchedContainer")
+const digWorkOrdContainer = document.getElementById("digWorkOrdContainer")
+const oeeMetContainer = document.getElementById("oeeMetContainer")
+const papQualContainer = document.getElementById("papQualContainer")
+const knowlManContainer = document.getElementById("knowlManContainer")
+
 //webpage section
 const careersButton = document.getElementById("careers-button");
 const careersPage = document.getElementById("careers-page");
@@ -15,7 +29,6 @@ const partnershipsPage = document.getElementById("partnerships-page");
 
 //contact form
 const contactForm = document.getElementById("contact-form");
-
 
 //brand section
 function toggleAjureSection() {
@@ -55,6 +68,63 @@ ajureButton.addEventListener('click', toggleAjureSection);
 socialSleeveButton.addEventListener('click', toggleSocialSleeveSection);
 playFairButton.addEventListener('click', togglePlayFairSection);
 
+//animation-section
+function toggleProdSched() {
+    if (prodSchedContainer.style.display == "none" || prodSchedContainer.style.display == "") {
+        prodSchedContainer.style.display = "block";
+        digWorkOrdContainer.style.display = "none";
+        oeeMetContainer.style.display = "none";
+        papQualContainer.style.display = "none";
+        knowlManContainer.style.display = "none";
+    }
+}
+
+function toggleDigWorkOrd() {
+    if (digWorkOrdContainer.style.display == "none" || digWorkOrdContainer.style.display == "") {
+        digWorkOrdContainer.style.display = "block";
+        prodSchedContainer.style.display = "none";
+        oeeMetContainer.style.display = "none";
+        papQualContainer.style.display = "none";
+        knowlManContainer.style.display = "none";
+    }
+}
+
+function toggleOeeMet() {
+    if (oeeMetContainer.style.display == "none" || oeeMetContainer.style.display == "") {
+        oeeMetContainer.style.display = "block";
+        prodSchedContainer.style.display = "none";
+        digWorkOrdContainer.style.display = "none";
+        papQualContainer.style.display = "none";
+        knowlManContainer.style.display = "none";
+    }
+}
+
+function togglePapQual() {
+    if (papQualContainer.style.display == "none" || papQualContainer.style.display == "") {
+        papQualContainer.style.display = "block";
+        prodSchedContainer.style.display = "none";
+        digWorkOrdContainer.style.display = "none";
+        oeeMetContainer.style.display = "none";
+        knowlManContainer.style.display = "none";
+    }
+}
+
+function toggleKnowlMan() {
+    if (knowlManContainer.style.display == "none" || knowlManContainer.style.display == "") {
+        knowlManContainer.style.display = "block";
+        prodSchedContainer.style.display = "none";
+        digWorkOrdContainer.style.display = "none";
+        oeeMetContainer.style.display = "none";
+        papQualContainer.style.display = "none";
+    }
+}
+
+prodSchedBtn.addEventListener('click', toggleProdSched);
+digWorkOrdBtn.addEventListener('click', toggleDigWorkOrd);
+oeeMetBtn.addEventListener('click', toggleOeeMet);
+papQualBtn.addEventListener('click', togglePapQual);
+knowlManBtn.addEventListener('click', toggleKnowlMan);
+
 //webpage section
 function toggleCareersSection() {
     if (careersPage.style.display == "none" || careersPage.style.display == "") {
@@ -67,7 +137,7 @@ function toggleCareersSection() {
 }
 
 function togglePartnershipsSection() {
-    if (partnershipsPage.style.display == "none" ||partnershipsPage.style.display == "") {
+    if (partnershipsPage.style.display == "none" || partnershipsPage.style.display == "") {
         partnershipsPage.style.display = "flex";
         careersPage.style.display = "none";
     }
@@ -85,4 +155,4 @@ function clearForm() {
 }
 
 contactForm.addEventListener('submit', clearForm());
-  
+

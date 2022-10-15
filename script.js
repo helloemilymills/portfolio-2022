@@ -76,6 +76,12 @@ function toggleProdSched() {
         oeeMetContainer.style.display = "none";
         papQualContainer.style.display = "none";
         knowlManContainer.style.display = "none";
+    
+        prodSchedBtn.style.borderBottom = "4px solid #3947D6";
+        digWorkOrdBtn.style.border = "none";
+        oeeMetBtn.style.border = "none";
+        papQualBtn.style.border = "none";
+        knowlManBtn.style.border = "none";
     }
 }
 
@@ -86,6 +92,12 @@ function toggleDigWorkOrd() {
         oeeMetContainer.style.display = "none";
         papQualContainer.style.display = "none";
         knowlManContainer.style.display = "none";
+
+        digWorkOrdBtn.style.borderBottom = "4px solid #3947D6";
+        prodSchedBtn.style.border = "none";
+        oeeMetBtn.style.border = "none";
+        papQualBtn.style.border = "none";
+        knowlManBtn.style.border = "none";
     }
 }
 
@@ -96,6 +108,12 @@ function toggleOeeMet() {
         digWorkOrdContainer.style.display = "none";
         papQualContainer.style.display = "none";
         knowlManContainer.style.display = "none";
+
+        oeeMetBtn.style.borderBottom = "4px solid #3947D6";
+        prodSchedBtn.style.border = "none";
+        digWorkOrdBtn.style.border = "none";
+        papQualBtn.style.border = "none";
+        knowlManBtn.style.border = "none";
     }
 }
 
@@ -106,6 +124,12 @@ function togglePapQual() {
         digWorkOrdContainer.style.display = "none";
         oeeMetContainer.style.display = "none";
         knowlManContainer.style.display = "none";
+
+        papQualBtn.style.borderBottom = "4px solid #3947D6";
+        prodSchedBtn.style.border = "none";
+        digWorkOrdBtn.style.border = "none";
+        oeeMetBtn.style.border = "none";
+        knowlManBtn.style.border = "none";
     }
 }
 
@@ -116,6 +140,12 @@ function toggleKnowlMan() {
         digWorkOrdContainer.style.display = "none";
         oeeMetContainer.style.display = "none";
         papQualContainer.style.display = "none";
+
+        knowlManBtn.style.borderBottom = "4px solid #3947D6";
+        prodSchedBtn.style.border = "none";
+        digWorkOrdBtn.style.border = "none";
+        oeeMetBtn.style.border = "none";
+        papQualBtn.style.border = "none";
     }
 }
 

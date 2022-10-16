@@ -169,7 +169,6 @@ h2 {
 
 .sewing-underline {
   background: white;
-  margin: 0;
 }
 
 #sewing-panel {
@@ -180,11 +179,6 @@ h2 {
   padding: 5vw;
   display: flex;
   justify-content: space-between;
-}
-
-#sewing-panel h2 {
-  margin-top: 0;
-  margin-left: 0;
 }
 
 #sewing-images-container {
@@ -292,5 +286,22 @@ footer a:visited {
 
   .animation-button p {
     font-size: 12px;
+  }
+
+  #sewing-panel {
+    flex-direction: column;
+  }
+
+  #sewing-images-container {
+    width: 90vw;
+  }
+
+  .sewing-images {
+    height: 44vw;
+    width: 44vw;
+  }
+
+  .sewing-text {
+    width: auto;
   }
 }

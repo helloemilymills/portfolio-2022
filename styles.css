@@ -196,6 +196,7 @@ h2 {
 }
 
 .sewing-text {
+  align-items: flex-start;
   width: 26vw;
   height: auto;
   display: flex;

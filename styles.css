@@ -3,6 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100vw;
 }
+/* if you change the font family here, 
+change it in the form section too */
 
 h2 {
   margin-bottom: 0;
@@ -11,14 +13,14 @@ h2 {
 #intro, #brand-section, #animation-section, #webpage-section, #contact-section {
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-bottom: 2.5vw;
+  margin-bottom: 5vw;
 }
 
 .title-underline {
   height: 3px;
   width: 100%;
   background: black;
-  margin-bottom: 30px;
+  margin-bottom: 2.5vw;
 }
 
 .title-with-underline {
@@ -54,28 +56,20 @@ h2 {
 }
 
 .brand-images-container div {
-  display:flex;
+  display: flex;
   width: 90vw;
   justify-content: space-between;
 }
 
-#ajure-brand {
-  display: none;
-}
-
-#social-sleeve-brand {
-  display: none;
-}
-
-#play-fair-brand {
+#ajure-brand, #social-sleeve-brand, #play-fair-brand {
   display: none;
 }
 
 #animation-buttons-container {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
   max-width: 90vw;
 }
 
@@ -129,8 +123,8 @@ h2 {
 }
 
 .webpage-preview-images {
-  width: 28vw; 
-  height: 200px;
+  width: 29vw; 
+  height: 29vw;
   background: navy;
   color: white;
   display: flex;
@@ -138,33 +132,32 @@ h2 {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  text-align: center;
 }
 
 .webpage-preview-images:hover {
-  background-color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 .coming-soon:hover {
+  opacity: 1;
   cursor: default;
 }
 
 .page-container {
   display: flex;
   justify-content: center;
-  margin-top: 2.5vw;
+  margin-top: 5vw;
 }
 
-#careers-page {
-  display: none;
-}
-
-#partnerships-page {
+#careers-page, #partnerships-page {
   display: none;
 }
 
 .webpage-images {
-  width: 80vw;
+  width: 90vw;
+  max-width: 800px;
 }
 
 .sewing-underline {
@@ -215,6 +208,8 @@ h2 {
 #sewing-ig-handle {
   display: flex;
   gap: 1.5vw;
+  margin-bottom: 2.5vw;
+  margin-top: 0;
 }
 
 form {
@@ -225,22 +220,37 @@ form {
   max-width: 90vw;
 }
 
+form p {
+  margin: 0;
+}
+
 label {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 input {
   padding: 5px;
   border-radius: 4px;
   border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 textarea {
+  padding: 5px;
   resize: none;
   height: 100px;
   border-radius: 4px;
   border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+textarea::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 #boba-textarea {
@@ -268,7 +278,6 @@ footer {
   background: black;
   color: white;
   padding: 25px 5vw;
-  margin-top: 30px;
 }
 
 footer a {

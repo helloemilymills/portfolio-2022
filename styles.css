@@ -403,9 +403,13 @@ footer {
   padding: 25px 5vw;
 }
 
-#repo-link {
+.footer-link {
   text-decoration: underline;
   text-decoration-color: var(--accent);
+}
+
+.credits {
+  font-size: 12px;
 }
 
 @media (max-width: 880px) {

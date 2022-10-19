@@ -240,7 +240,7 @@ h2 {
   width: 29vw;
   height: 29vw;
   background: var(--accent);
-  color: var(--light);
+  color: var(--dark);
   font-size: 2vw;
   display: flex;
   flex-direction: column;
@@ -281,15 +281,11 @@ h2 {
   margin-top: 0;
 }
 
-.sewing-underline {
-  background-color: var(--light);
-}
-
 #sewing-panel {
   height: auto;
   width: 90vw;
-  background: var(--accent);
-  color: var(--dark);
+  background: var(--dark);
+  color: var(--light);
   padding: 5vw;
   display: flex;
   justify-content: space-between;
@@ -322,6 +318,7 @@ h2 {
   gap: 1.5vw;
   margin-bottom: 0;
   margin-top: 0;
+  align-items: center;
 }
 
 #hobby-instagram {
@@ -399,6 +396,11 @@ footer {
   background: var(--dark);
   color: var(--light);
   padding: 25px 5vw;
+}
+
+#repo-link {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
 }
 
 @media (max-width: 880px) {

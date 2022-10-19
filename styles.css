@@ -25,6 +25,10 @@ a:visited {
   color: inherit;
 }
 
+a:hover {
+  color: var(--accent);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -390,6 +394,7 @@ textarea::placeholder {
 
 #submit:hover {
   cursor: pointer;
+  background-color: var(--accent);
 }
 
 footer {
